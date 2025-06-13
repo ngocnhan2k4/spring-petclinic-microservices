@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class OwnerEntityMapper implements Mapper<OwnerRequest, Owner> {
-    // This is done by hand for simplicity purpose. In a real life use-case we should consider using MapStruct.aaa
+    // This is done by hand for simplicity purpose. In a real life use-case we should consider using MapStruct.aaaa
     @Override
     public Owner map(final Owner owner, final OwnerRequest request) {
         owner.setAddress(request.address());
